@@ -8,16 +8,26 @@
   <body>
     <header></header>
     <main>
-      <p>Nombres:</p>
-      <br>
-      <input id="nombreUsuario" type="text">
-    <p>Número de tarjeta:</p>
-    <br>
-    <input id="numeroTarjeta" type="text">
-    <button type="button" name="button" isValid.addEventListener("click", validator);>Mostrar</button>
-    <p id="textoString"></p>
-    </main>
-    <footer></footer>
+      <div class="contenedorDeFormulario">
+        <!--formulario para validar tarjeta-->
+        <form id="formularioDeValidador">
+         <!--logo del restaurante-->
+         <img class="logoRestaurante" src="imagenes/logo-brasas.png" alt="">
+           <div class="contenedorDatosUsuario">
+              <p>Nombres:</p>
+              <input id="inputNombre" type="text">
+              <p>Número de tarjeta:</p>
+              <input id="inputNumeroTarjeta" type="text" maxlength="16">
+              <br>
+              <br>
+              <!--boton de validar y boton para borrar los campos de texto-->
+              <button id="botonValidar" type="button">Validar</button>   <button id="limpiaInputsDeTexto" value="Limpiar">Limpiar</button>
+              <br>
+              <p id="respuestaValidacion"></p>
+           </div>
+        </form>
+      </div>
     <script src="index.js" type="module"></script>
+    </main>
   </body>
 </html>
