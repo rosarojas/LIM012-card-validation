@@ -1,29 +1,26 @@
-# Credit card validation Restaurante "Brasas"
+# Validador de tarjeta de crédito para el Restaurante "Brasas"
+
 ## Descripción de proyecto
+   Se utiliza el logaritmo de Luhn para verificar si un número de tarjeta es válido o no. Además de emplea una función para ocultar ciertos dígitos del número de tarjeta.
 
-Debe contener lo siguiente:
-
-* Un título con el nombre de tu proyecto:
-  Proyecto de validación de tarjeta de crédito.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto:
-  Se utiliza el logaritmo de Luhn para verificar si un número de tarjeta es válido o no. Además de emplea una función para ocultar ciertos dígitos del número de tarjeta.
 * La imagen final de tu proyecto:
   https://github.com/rosarojas/LIM-012-TARJETA-DE-CREDITO/issues/3#issue-569557786
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-    El dueño del restaurante "Brasas" requería de un método para verificar que la tarjetas de crédito con las que pagan sus clientes sean válidas.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
+
+### Usuario y producto
+    Los usuarios son los clientes del Restaurante "Las Brasas", el dueño del lugar solicitó un sistema para validar las tarjetas de crédito de los clientes antes de que estos realicen el pago por su consumo.
+
+#### Solución del problema
      Esta es una aplicación que el personal de atención tiene en sus tablets para que puedan verificar si el número de tarjeta de los comensales es válido antes de que realicen su pago.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-     https://github.com/rosarojas/LIM-012-TARJETA-DE-CREDITO/issues/1#issue-569557369
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-     El feedback que me dieron fue poner un botón para limpiar el formulario, y así se pueda usar nuevamente. Además, de elegir los colores de acuerdo al restaurante e incluir su logo en la aplicación para que sepan que es su aplicación.
-  5. Imagen del prototipo final.
+
+  * Foto de primer prototipo en papel:  https://github.com/rosarojas/LIM-012-TARJETA-DE-CREDITO/issues/1#issue-569557369
+
+##### Feedback para mejorar el proyecto
+      El feedback que me dieron fue poner un botón para limpiar el formulario, y así se pueda usar nuevamente. Además, de elegir los colores de acuerdo al restaurante e incluir su logo en la aplicación para que sepan que es su aplicación.
+
+   * Imagen del prototipo final.
      https://github.com/rosarojas/LIM-012-TARJETA-DE-CREDITO/issues/2#issue-569557593
 
-## 1. Objetivos de aprendizaje
+## Objetivos de aprendizaje
 
 ### UX
 
@@ -50,7 +47,7 @@ Debe contener lo siguiente:
 * [ ] [Uso de bucles](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
 * [x] [Uso de funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
 * [ ] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [x] Utilizar ES Modules (`import` | `export`).
+* [ ] Utilizar ES Modules (`import` | `export`).
 
 ### Testing
 
@@ -64,6 +61,6 @@ Debe contener lo siguiente:
 
 ### Buenas prácticas de desarrollo
 
-* [x] Organizar y dividir el código en módulos (Modularización).
+* [ ] Organizar y dividir el código en módulos (Modularización).
 * [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [x] Uso de linter para seguir buenas prácticas (ESLINT).
+* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
