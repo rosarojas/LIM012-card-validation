@@ -2,7 +2,7 @@
 ## Descripción de proyecto
 Se utiliza el logaritmo de Luhn para verificar si un número de tarjeta es válido o no. Además de emplea una función para ocultar ciertos dígitos del número de tarjeta.
 
-  ![Con titulo](imagenes/imagen-proyecto-tarjeta.jpg "Imagen final de proyecto")
+  ![Con titulo](imagenes-prototipo/imagen-proyecto-tarjeta.jpg "Imagen final de proyecto")
 
 ## Usuario y producto
 Los usuarios son los clientes del Restaurante "Las Brasas", el dueño del lugar solicitó un sistema para validar las tarjetas de crédito de los clientes antes de que estos realicen el pago por su consumo.
@@ -10,12 +10,12 @@ Los usuarios son los clientes del Restaurante "Las Brasas", el dueño del lugar 
 ## Solución del problema
 Esta es una aplicación que el personal de atención tiene en sus tablets para que puedan verificar si el número de tarjeta de los comensales es válido antes de que realicen su pago.
 
-  ![Con titulo](imagenes/primer-prototipo-tarjeta.jpeg "Primer prototipo en papel")
+  ![Con titulo](imagenes-prototipo/primer-prototipo-tarjeta.jpeg "Primer prototipo en papel")
 
 ## Feedback para mejorar el proyecto
 El feedback que me dieron fue poner un botón para limpiar el formulario, y así se pueda usar nuevamente. Además, de elegir los colores de acuerdo al restaurante e incluir su logo en la aplicación para que sepan que es su aplicación.
 
-  ![Con titulo](imagenes/prototipo-tarjeta-borrador.jpeg "Imagen de prototipo final")
+  ![Con titulo](imagenes-prototipo/prototipo-tarjeta-borrador.jpeg "Imagen de prototipo final")
 
 ***
 # Objetivos de aprendizaje
