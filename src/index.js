@@ -11,9 +11,9 @@ document.getElementById("botonValidar").addEventListener("click", () => {
   const validador = validator.isValid(creditCardNumber);
   //Condicional para responder al usuario
   if (validador == true) {
-   document.getElementById("respuestaValidacion").innerHTML = "Estimado(a), " + nombreUsuario + ". Su número de tarjeta: " + maskify +  "es válido.";
+   document.getElementById("respuestaValidacion").innerHTML = "Estimado(a) " + nombreUsuario + ", su número de tarjeta " + maskify +  " es válido.";
   } else {
-   document.getElementById("respuestaValidacion").innerHTML = "Estimado(a), " + nombreUsuario + ". Su número de tarjeta: " + maskify + " no es válido. Por favor contáctese con su entidad bancaria";
+   document.getElementById("respuestaValidacion").innerHTML = "Estimado(a) " + nombreUsuario + ", su número de tarjeta " + maskify + " no es válido.";
   }
 });
 //Evento click para ejecutar función para limpiar campos del formulario
